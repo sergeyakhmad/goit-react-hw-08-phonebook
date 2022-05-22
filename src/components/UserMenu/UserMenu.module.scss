@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(214, 162, 162);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: rgb(236, 103, 103);
+  }
+}

@@ -1,0 +1,16 @@
+.link {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(141, 43, 220);
+}
+
+.activeLink {
+  @extend .link;
+  color: rgb(75, 146, 213);
+}
