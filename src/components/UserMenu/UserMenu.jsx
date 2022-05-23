@@ -12,7 +12,7 @@ const UserMenu = () => {
   return (
     <div className={s.menu}>
       <img src={avatar} alt="" width="32" className={s.img} />
-      <span className={s.name}>Welcome, {name}</span>
+      <span className={s.name}>{name}</span>
       <button
         type="button"
         className={s.btn}
